@@ -1,1 +1,109 @@
- 
+body
+{
+	margin:0px;
+}
+
+#topPage
+{
+	height:100vh;
+	background-color:#6ca2d1;
+	display:flex;
+	flex-direction:row;
+}
+
+/* =========================INDEX========================= */
+aside
+{
+	width:30%;
+	height:100vh;
+	background-color:white;
+	border-radius:0px 5px 5px 0px;
+}
+
+aside h1
+{
+	color:#6ca2d1;
+	margin-top:0px;
+	padding-top:20px;
+	text-align:center;
+	font-size:2em;
+	width:60%;
+	margin:auto;
+	border-bottom:1px solid #d18e32; 
+	padding-bottom:5px;
+}
+
+
+aside ul
+{
+	margin-top:100px;
+	list-style:none;
+}
+
+aside ul li
+{
+	font-size:2em;
+	margin:50px;
+	cursor:pointer;
+}
+
+ul li a
+{
+	text-decoration:none;
+	color:#6ca2d1;
+	border-bottom:1px solid #d18e32;
+	
+}
+
+ul li a:hover
+{
+	transition:all 0.3s ease;
+	border-bottom:3px solid #d18e32;
+}
+
+
+/*=========================IMG========================= */
+
+#appliImg
+{
+	display:flex;
+	flex-drection:row;
+	justify-content:space-around;
+	width:100%;
+}
+
+.paper a
+{
+	width:100%;
+}
+
+.paper a img
+{
+	margin:auto;
+}
+
+#tedIcon
+{
+	width:220px;
+}
+
+#airDroidIcon
+{
+	width:220px;
+}
+
+#soundCloudIcon
+{
+	width:180px;
+	margin-top:25px;
+}
+
+
+/*=========================IMG========================= */
+
+.paper
+{
+	width:300px;
+	height:70vh;
+	background-color:white;
+}
