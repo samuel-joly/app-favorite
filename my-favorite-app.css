@@ -136,6 +136,8 @@ ul li a:hover
 	font-size:1.2em;
 	margin:15px;
 	width:100px;
+	position:relative;
+	bottom:50px;
 }
 
 .airDroidImg
@@ -201,7 +203,7 @@ ul li a:hover
 .paper center
 {
 	border-radius:6px 6px 0 0 ;
-	background-color:#d18e32;
+	background-color:#d3b98b;
 	height:220px;
 }
 
