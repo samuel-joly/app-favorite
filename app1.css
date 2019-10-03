@@ -102,7 +102,7 @@ main
 {
 	width:48.35%;
 	margin:15px;
-	margin-top:-80px;
+	margin-top:-79px;	
 }
 
 #insidesRow
@@ -118,17 +118,79 @@ main
 	border-bottom:2px solid #b2b2b2;
 }
 
-#insidesRow ul
+#insidesRow table
 {
 	font-size:1.5em;
-	text-align:justify;
-	margin:70px;
-	margin-top:-10px;
-	list-style:none;
+	width:470px;
+	margin:auto;
+	margin-top:20px;
 }
 
-#insidesRow ul li
+#insidesRow table tr
 {
 	margin-top:30px;
 	margin-left:30px;
+}
+
+#insidesRow table tr td
+{
+	width:150px;
+	
+}
+
+#insidesRow table tr td a
+{
+	text-decoration:underline;
+	color:black;
+}
+
+#insidesRow p
+{
+	text-align:center;
+	font-size:1.5em;
+}
+
+#tRow
+{
+	display:flex;
+	flex-direction:row;
+}
+
+#tRow h1
+{
+	margin-left:15px;
+	border-bottom:2px solid #b2b2b2;
+	width:620px;
+	margin:auto;
+	margin-top:60px;
+	margin-bottom:15px;
+}
+
+#tRow img
+{
+	width:50%;
+	margin:15px;
+	margin-top:-15px;
+	margin-left:-40px;
+}
+
+#insidetRow
+{
+	margin-top:110px;
+	display:flex;
+	flex-direction:column;
+	width:50%;
+	margin:15px;
+}
+
+#insidetRow p
+{
+	text-align:center;
+	font-size:1.5em;	
+}
+
+#insidetRow a
+{
+	text-align:center;
+	font-size:1.3em;
 }
