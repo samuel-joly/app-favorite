@@ -10,6 +10,23 @@
 	src:url("Nobiler.ttf");
 }
 
+@font-face
+{
+	font-family:"AirAmerica";
+	src:url("AirAmerica.otf");
+}
+
+@font-face
+{
+	font-family:"vampire";
+	src:url("vampire.otf");
+}
+
+@font-face
+{
+	font-family:"bpreplay";
+	src:url("bpreplay.otf")
+}
 
 body
 {
@@ -32,9 +49,14 @@ aside
 	border-radius:0px 5px 5px 0px;
 }
 
-h1, li
+h1
 {
 	font-family:"Kaushan";
+}
+
+aside ul li
+{
+	font-family:"bpreplay";
 }
 
 aside h1
@@ -53,9 +75,10 @@ aside h1
 
 aside ul
 {
-	margin-top:100px;
+	margin-top:80px;
+	padding-bottom:20px;
 	list-style:none;
-	margin-left:20px;
+	margin-left:30px;
 }
 
 aside ul li
@@ -65,10 +88,10 @@ aside ul li
 	cursor:pointer;
 }
 
-ul li a
+aside ul li a
 {
 	text-decoration:none;
-	color:#6ca2d1;
+	color:black;
 	border-bottom:1px solid #d18e32;
 	transition:border 0.3s ease;
 	
@@ -97,7 +120,8 @@ ul li a:hover
 	margin:auto;
 	margin-top:20px;
 	text-align:justify;
-	font-family:"Nobiler";
+	font-family:"AirAmerica";
+	font-size:1.3em;
 }
 
 #bottomInfo ul
@@ -114,23 +138,42 @@ ul li a:hover
 	width:100px;
 }
 
-/*=========================IMG========================= */
-#bottomInfo ul li img
-{
-	width:50px;
-}
-
-
 .airDroidImg
 {
-	margin-top:13px;
+	margin-top:20px;
+	width:80px;
+	margin-bottom:-10px;
 }
 
 
 .soundcloudImg 
 {
-	margin-top:2px;
+	margin-top:20px;
+	width:50px;
 }
+
+.tedImg
+{
+	width:70px;
+	margin-bottom:-10px;
+	margin-top:10px;
+
+}
+
+#bottomInfo ul 
+{
+	width:80%;
+	margin:auto;
+	margin-top:70px;
+	padding:0px;
+}
+
+#bottomInfo ul li a 
+{
+	font-family:"AirAmerica";
+}
+
+/*=========================IMG========================= */
 
 
 #appliImg
@@ -143,15 +186,164 @@ ul li a:hover
 	background-size:cover;
 }
 
-.paper a
+
+/* ========================PAPER======================== */
+.paper
 {
+	margin-top:100px;
+	border-radius:8px;
+	width:450px;
+	height:70vh;
+	background-color:white;
+	transition:all 2s ease;
 }
 
-.paper a img
+.paper center
+{
+	border-radius:6px 6px 0 0 ;
+	background-color:#d18e32;
+	height:220px;
+}
+
+.paper h1
+{
+	text-align:center;
+	max-height:36px;
+}
+
+#soundCloud
+{
+	font-family:"bpreplay";
+}
+
+.paper h2
+{
+	font-size:1.2em;
+	text-align:center;
+	color:grey;
+	margin-top:-20px;
+}
+
+.pZone
+{
+	width:80%;
+	height:30%;
+	margin:auto;
+	border-bottom:1px solid #d18e32;
+}
+
+.paper p
+{
+	text-align:justify;
+}
+
+
+.icon img
 {
 	width:100%;
 	margin:auto;
 }
+
+.social
+{
+	display:flex;
+	flex-direction:row;
+	width:80%;
+	margin:auto;
+	justify-content:space-between;
+}
+
+.learnMore
+{
+	border:1px solid #ffc054;
+	transition:background 1s ease;
+	float:right;
+	margin:-5px 50px 0px 0px;
+	padding:5px;
+	border-radius:5px;
+}
+
+.learnMore a
+{
+	text-decoration:none;
+	color:black;
+}
+
+.learnMore:hover
+{
+	background-color:#ffc054;
+}
+
+#tedxFont
+{
+	font-family:"vampire";
+}
+
+#airDroidFont
+{
+	font-family:"Kaushan";
+}
+
+#soundCloudFont
+{
+	font-family:"bpreplay";
+}
+
+#tedX h1
+{
+	font-family:"vampire";
+}
+
+.fbLink
+{
+	width:100px;
+}
+
+.ytLink
+{
+	width:150px;
+	margin-top:-20px;
+}
+
+.ofLink
+{
+	width:100px;
+}
+
+#ofAirDroid
+{
+	margin-bottom:15px;
+}
+
+#soundCloudLink
+{
+	width:60px;
+	margin-top:10px;
+	margin-bottom:20px;
+}
+
+.dlLink
+{
+	width:60px;
+	margin-top:10px;
+}
+
+.red
+{
+	color:red;
+}
+
+.green
+{
+	color:#80ea2e;
+}
+
+.orange
+{
+	color:orange;
+}
+
+/* =============================PAPER IMG============================= */
 
 #tedIcon
 {
@@ -168,24 +360,4 @@ ul li a:hover
 {
 	width:180px;
 	margin-top:25px;
-}
-
-
-/*=========================IMG========================= */
-
-.paper
-{
-	margin-top:100px;
-	border-radius:8px;
-	width:450px;
-	height:70vh;
-	background-color:white;
-	transition:all 2s ease;
-}
-
-.paper center
-{
-	border-radius:6px 6px 0 0 ;
-	background-color:#d18e32;
-	height:220px;
 }
