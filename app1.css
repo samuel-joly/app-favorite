@@ -194,3 +194,22 @@ main
 	text-align:center;
 	font-size:1.3em;
 }
+
+
+
+#goBack
+{
+	top:10px;
+	position:fixed;
+	width:50px;
+	height:55px;
+	border-radius:50%;
+	background-color:grey;
+}
+
+#goBack img
+{
+	position:fixed;
+	top:15px;
+	width:50px;
+}
