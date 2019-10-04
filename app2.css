@@ -160,3 +160,42 @@ body
 {
 	margin-top:130px;
 }
+
+#thirdRow div h1
+{
+	margin-right:30px;
+}
+#thirdRow div
+{
+	margin:auto;
+}
+
+#download
+{
+	display:flex;
+	flex-direction:row;
+	width:400px;
+	margin:auto;
+	margin-bottom:70px;
+}
+
+#download a
+{
+	display:flex;
+	flex-direction:column;
+	text-align:center;
+	text-decoration:none;
+	color:green;
+	transition:width 1s ease;
+}
+
+#download a img
+{
+	width:100px;
+}
+
+#download a img:hover
+{
+	width:120px;
+	height:120px;
+}
