@@ -101,7 +101,7 @@ main
 #sRow video
 {
 	width:48.35%;
-	margin:15px;
+	margin:13px;
 	margin-top:-79px;	
 }
 
@@ -166,7 +166,7 @@ main
 	margin-bottom:15px;
 }
 
-#tRow img
+#tedXlastImg
 {
 	width:50%;
 	margin:15px;
@@ -193,15 +193,34 @@ main
 {
 	text-align:center;
 	font-size:1.3em;
+	font-family:"vampire";
+	text-decoration:none;
+	color:red;
+	margin:15px;
+	border-top:2px solid grey;
+	border-bottom:2px solid grey;
+	width:90px;
+	margin:auto;
 }
 
+.appDL
+{
+	display:flex;
+	flex-direction:row;
+	max-width:585px;
+}
 
+.appDL img 
+{
+	width:70px;
+	margin-left:-120px;
+}
 
 #goBack
 {
 	top:10px;
 	position:fixed;
-	width:50px;
+	width:57px;
 	height:55px;
 	border-radius:50%;
 	background-color:grey;
@@ -211,5 +230,6 @@ main
 {
 	position:fixed;
 	top:15px;
+	left:10px;
 	width:50px;
 }
