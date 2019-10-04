@@ -1,7 +1,7 @@
 @font-face
 {
 	font-family:"Kaushan";
-	src:url("Kaushan.otf");
+	src:url("Expressa.ttf");
 }
 
 @font-face
@@ -13,7 +13,7 @@
 @font-face
 {
 	font-family:"AirAmerica";
-	src:url("AirAmerica.otf");
+	src:url("times.ttf");
 }
 
 @font-face
@@ -43,9 +43,9 @@ body
 /* =========================INDEX========================= */
 aside
 {
-	width:30%;
+	width:25%;
 	height:100vh;
-	background-color:white;
+	background-image:white;
 	border-radius:0px 5px 5px 0px;
 }
 
@@ -184,7 +184,7 @@ ul li a:hover
 	flex-drection:row;
 	justify-content:space-around;
 	width:100%;
-	background-image:url("https://wallpaperaccess.com/full/816773.jpg");
+	background-image:url("https://www.ilovewallpaper.co.uk/images/zara-shimmer-metallic-wallpaper-soft-grey-silver-p4924-13185_image.jpg");
 	background-size:cover;
 }
 
@@ -203,7 +203,7 @@ ul li a:hover
 .paper center
 {
 	border-radius:6px 6px 0 0 ;
-	background-color:#d3b98b;
+	background-color:#fc8200;
 	height:220px;
 }
 
