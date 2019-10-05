@@ -225,3 +225,21 @@ body
 	left:5px;
 	width:50px;
 }
+
+#goBack
+{
+	top:10px;
+	position:fixed;
+	width:57px;
+	height:55px;
+	border-radius:50%;
+	background-color:grey;
+}
+
+#goBack img
+{
+	position:fixed;
+	top:15px;
+	left:5px;
+	width:50px;
+}
