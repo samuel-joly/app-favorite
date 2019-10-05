@@ -138,6 +138,7 @@ body
 
 .descriptionZone h1
 {
+	font-family:"Kaushan";
 	text-align:center;
 	border-bottom:2px solid lightgreen;
 	margin-bottom:30px;
@@ -148,6 +149,7 @@ body
 	font-size:1.3em;
 	width:800px;
 	margin:auto;
+	text-align:center;
 }
 
 
@@ -165,6 +167,12 @@ body
 {
 	margin-right:30px;
 }
+
+#thirdRow
+{
+	margin-bottom:30px;
+}
+
 #thirdRow div
 {
 	margin:auto;
@@ -174,7 +182,7 @@ body
 {
 	display:flex;
 	flex-direction:row;
-	width:400px;
+	width:200px;
 	margin:auto;
 	margin-bottom:70px;
 }
@@ -198,4 +206,22 @@ body
 {
 	width:120px;
 	height:120px;
+}
+
+#goBack
+{
+	top:10px;
+	position:fixed;
+	width:57px;
+	height:55px;
+	border-radius:50%;
+	background-color:grey;
+}
+
+#goBack img
+{
+	position:fixed;
+	top:15px;
+	left:5px;
+	width:50px;
 }
